@@ -1,0 +1,492 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border: 0.1px solid red; */
+  /* font-family: sans-serif; */
+  font-family: 'OnePlus Sans Regular', 'Helvetica Neue', Helvetica, Arial, sans-serif, system-ui;
+}
+
+/* header start hear  */
+
+header {
+  display: flex;
+  padding:0 24px;
+}
+
+.headerleft {
+  font-size: 50px;
+  align-items: center;
+}
+a {
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+svg {
+  width: 85px;
+  height: 24px;
+  fill: #f50514;}
+.headerCenter {
+  display: flex;
+  flex-grow: 1;
+}
+.headerCenter ul{
+    display: flex;
+    padding: 10px 180px;
+    gap: 12px;
+}
+.headerCenter li{
+    list-style: none;
+    font-size: 16px;
+}
+.headerRight {
+  align-items: center;
+  font-size: 16px;
+
+}
+.headerRight i {
+  padding: 11px 15px;
+}
+/* header endes hear  */
+
+
+/* main starts hear  */
+
+.card {
+  height: 500px;
+  max-width:100% ;
+  background-image: url("https://www.oneplus.in/content/dam/oneplus/2024/in/launch/13/1230/13_Tablet.jpg");
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cardtext {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+padding: 30px;
+gap: 5px;
+}
+
+.card-contener1 .cardtext{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+
+}
+
+.card-contener1 .cardtext .learn {
+  color: black;
+}
+
+
+
+
+.card .cardtext p{
+  color: white;
+  /* font-size: 20px; */
+
+}
+
+.cardtext .aa{
+  font-size: 18px;
+  color: #1a1a1a;
+}
+
+.bb{
+  font-size: 32px;
+}
+
+.cc{
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.buynow {
+  height: 32px;
+  width: 81px;
+  border-radius: 20px;
+  padding: 5px;
+  border: none;
+  outline: none;
+}
+
+.bu{
+  display: flex;
+  gap: 30px;
+}
+
+.learn{
+  text-decoration: underline;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: white;
+  font-size: 18px;
+
+}
+.card2 {
+    height: 500px;
+    max-width:100% ;
+    background-image: url("https://www.oneplus.in/content/dam/oneplus/2025/components/hero-banner/13R_Tablet_0107.jpg");
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .card2 .learn {
+    color: black;
+  }
+  .card2 .buynow ,.buynow{
+    background-color: black;
+    color: white;
+  }
+
+  .card3 {
+    height: 500px;
+    max-width:100% ;
+    background-image: url("https://www.oneplus.in/content/dam/oneplus/2024/product/hero-banner/HeroBanner_NordCE4_Tablet.jpg");
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .card3 .learn,.cc{
+    color: black;
+  }
+
+section{
+    margin-bottom: 8px;
+}
+
+.card-contener {
+  height: 444px;
+  max-width: 100%;
+  display: flex;
+  padding-inline: 24px;
+  padding-top: 56px;
+  gap: 16px;
+  
+}
+
+.card-contenerr {
+  height: 150px;
+  max-width: 100%;
+  display: flex;
+  padding-inline:24px ;
+  gap: 16px;
+}
+
+.card-contener1{
+  height: 400px;
+ width: 642px;
+
+ background-color: #828282;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-image: url("https://www.oneplus.in/content/dam/oneplus/2024/in/home/1122/new_Light_helpdesk_Tablet.jpg");
+}
+
+#card1{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("https://www.oneplus.in/content/dam/oneplus/2024/product/product-card/two-column/NordCE4Lite_3colors_Desktop.jpg");
+}
+
+#card2{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("https://www.oneplus.in/content/dam/oneplus/2024/in/store/1119/HeroProduct2Cards_Light_OP12R_Desktop.jpg")
+}
+
+#card3 {
+  background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+  background-image: url("https://www.oneplus.in/content/dam/oneplus/2024/in/home/1122/HeroProduct2Cards_Dark_Pad2_Desktop.jpg");
+}
+
+#card4{
+  background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ color: white;
+ background-image: url("https://www.oneplus.in/content/dam/oneplus/2025/components/product-card/two/Guass3color_Desktop.jpg");
+}
+
+#card4 .cc{
+  color: white;
+}
+
+#card6{
+  background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-image: url("https://www.oneplus.in/content/dam/oneplus/2024/in/home/1218/ArticleCard_Light_desk_Tablet.jpg");
+}
+
+.card-contener11 {
+  height: 100%;
+  width: 642px;
+  background-color: #FAFAFA;
+  padding: 10px;
+}
+
+.ppp{
+  font-size: 30px;
+  margin-bottom: 45px;
+}
+
+.pppp {
+  margin-bottom: 43px;
+}
+
+.card-contener11 button {
+  height: 20px;
+  width: 80px;
+  border-radius: 30px;
+  background-color: black;
+  color: #FAFAFA;
+  margin-top: 20px;
+  border: none;
+  
+}
+
+.pp{
+  font-size: 14px;
+}
+
+
+.rating-section {
+  height: 277px;
+  margin-top: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rating-card {
+   max-width: 344px;
+  height: 229px;
+  margin: 0px auto;
+  padding: 10px 12px;
+        max-width: 344px;
+        border-radius: 8px;
+        box-shadow: rgba(0, 0, 0, 0.05) 0px -5px 40px 0px, rgba(0, 0, 0, 0.05) 0px 4px 30px 0px;
+}
+
+.rating-card h2{
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+  letter-spacing: normal;
+}
+
+.starbox {
+  height: 85px;
+  width: 284px;
+  padding: 5px;
+  margin-top: 10px;
+  /* border: 0.1px solid gray; */
+}
+
+.star {
+  display: flex;
+  height: auto;
+  width: auto;
+  justify-content: space-between;
+  margin-top: 5px;
+  gap: 10px;
+}
+
+.star svg{
+  display: flex;
+  justify-content: space-between;
+}
+.next-holder {
+  width: auto;
+  display: flex;
+  align-items: end;
+  justify-content: end;
+}
+.next {
+  height: 30px;
+  width: 60px;
+  margin-top: 12px;
+}
+
+.good{
+  display: flex;
+  margin-top: 30px;
+  justify-content: space-between;
+  color: #828282;
+}
+
+.artical-card {
+background: #fff;
+}
+
+.artical-card img {
+  height:426px ;
+  width: 640px;
+
+}
+
+.sc{
+  height: 494px;
+  width: 100%;
+  background-image: url("./img/Screenshot\ 2025-01-10\ 143316.png");
+}
+
+.sc1 {
+  height: 494px;
+  width: 100%;
+  background-image: url("./img/Screenshot\ 2025-01-10\ 144116.png");
+}
+
+.sc2 {
+  height: 494px;
+  width: 100%;
+  background-image: url("./img/Screenshot\ 2025-01-10\ 144452.png");
+}
+
+.black{
+  background-color: rgb(39, 38, 38);
+}
+
+footer{
+  height: 568px;
+  width: 100%;
+  background-image: url("./img/Screenshot\ 2025-01-10\ 144846.png");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .swiper-horizontal {
+  touch-action: pan-y;
+}
+
+.cmp__article-card .cmp__article-card__container.card-more {
+  display: flex
+;
+  align-items: stretch;
+}
+.cmp__article-card .cmp__article-card__container {
+  max-width: 1792px;
+  margin: 0 auto;
+}
+
+.cmp__article-card__container .article-card__item .article-card__container {
+  display: flex
+;
+  flex-direction: column;
+  justify-content: space-between;
+} */
+
+
+
+
+
+
+
+
