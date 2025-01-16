@@ -340,24 +340,182 @@ background: #fff;
 .sc{
   height: 494px;
   width: 100%;
-  background-image: url("./img/Screenshot\ 2025-01-10\ 143316.png");
+  padding: 32px 24px;
+  background: #fff;
+  display: flex;
+}
+
+.scfirst {
+  height: 430px;
+  width: 860px;
+  background-image: url("https://www.oneplus.in/content/dam/oneplus/2024/global/home/1104/ArticleCard_Light_OxygenOS15_Tablet.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.scsecond {
+  height: 430px;
+  width: 440px;
+  padding: 20px 4px 20px 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.slogan {
+  color: rgba(26, 26, 26, .55);
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.tital-oop {
+  color: rgba(26, 26, 26, .95);
+  font-size: 25px;
+}
+
+.description{
+  word-break: keep-all;
+  margin-top: 190px;
+  font-size: 15px;
+}
+
+.scbutton {
+  border-radius: 20px;
+  /* padding-block: 20px; */
+  background-color: #1a1a1a;
+  color: white;
+  height: 25px;
+  width: 100px;
+  margin-top: 20px;
 }
 
 .sc1 {
   height: 494px;
   width: 100%;
-  background-image: url("./img/Screenshot\ 2025-01-10\ 144116.png");
+  background-color: black;
+  display: flex;
+  padding: 32px 24px;
+  color: #fff;
+  /* background-image: url("./img/Screenshot\ 2025-01-10\ 144116.png"); */
+}
+
+.scfirst1 {
+  height: 430px;
+  width: 860px;
+  background-image: url("https://www.oneplus.in/content/dam/oneplus/2024/in/home/1114/PhotographyAwards_Tablet.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.slogan1 {
+  color: rgba(243, 233, 233, 0.55);
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.tital-oop1 {
+  color: rgba(223, 213, 213, 0.95);
+  font-size: 25px;
+}
+
+.scbutton1 {
+  border-radius: 20px;
+  /* padding-block: 20px; */
+  background-color: white;
+  color: black;
+  height: 25px;
+  width: 100px;
+  margin-top: 20px;
 }
 
 .sc2 {
   height: 494px;
   width: 100%;
-  background-image: url("./img/Screenshot\ 2025-01-10\ 144452.png");
+  /* background-image: url("./img/Screenshot\ 2025-01-10\ 144452.png"); */
 }
 
+.scsecond2 {
+  height: 430px;
+  width: 860px;
+  background-image: url("https://www.oneplus.in/content/dam/oneplus/2024/in/home/1114/PhotographyAwards_Tablet.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 .black{
   background-color: rgb(39, 38, 38);
 }
+
+.foot {
+  width: 100%;
+  height: 10%;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  justify-content: space-between;
+  padding-right: 65px;
+  padding-left: 65px;
+}
+
+.boox {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.boox .box {
+  width: 30%;
+  height: 80%;
+  color: white;
+  padding-left: 15px;
+  padding-top: 20px;
+
+}
+
+.boox .img {
+  width: 60%;
+  height: 80%;
+  background-image: url(https://www.oneplus.in/content/dam/oneplus/2024/eu/home/0929/RCC_Desktop.jpg);
+  background-position: center;
+  background-size: cover;
+
+
+}
+
+.black2 {
+  height: 500PX;
+  width: 100%;
+}
+
+/* .main8 {
+  width: 100%;
+  height: 70%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
+/* .photo {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px;
+  /* position: relative;
+  left: 40px; */
+} */
 
 footer{
   height: 568px;
@@ -365,6 +523,197 @@ footer{
   background-image: url("./img/Screenshot\ 2025-01-10\ 144846.png");
 }
 
+
+.footer {
+  width: 100%;
+  height: 150%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: center; */
+  background-color: black;
+  color: white;
+
+  .sec1 {
+      width: 100%;
+      height: 10%;
+      display: flex;
+      justify-content: flex-start;
+      padding: 40px;
+  }
+
+  .sec2 {
+      width: 99%;
+      height: 40%;
+      gap: 1%;
+      display: flex;
+      padding-left: 20px;
+      padding-right: 20px;
+      /* align-items: center; */
+
+
+
+      .child3:first-child {
+          width: 50%;
+          height: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+
+          .img {
+              width: 100%;
+              height: 100%;
+              background-image: url(https://image01.oneplus.net/media/202407/01/3366ee472982bff9a48adcc3d672fb46.png);
+              background-position: center;
+              background-repeat: no-repeat;
+              background-size: cover;
+
+              .text {
+                  width: 50%;
+                  height: 100%;
+                  position: relative;
+                  padding: 20px;
+
+                  h1 {
+                      margin-top: 20px;
+                  }
+
+                  p {
+                      margin-top: 20px;
+                  }
+
+                  button {
+                      margin-top: 100px;
+                      margin-left: 20px;
+                      text-align: center;
+                      height: 50px;
+                      width: 240px;
+                      border: 0.5px solid white;
+                  }
+              }
+          }
+      }
+
+      .child3:nth-child(2) {
+          width: 50%;
+          height: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          input {
+              width: 240px;
+              height: 30px;
+              color: white;
+              background-color: #171717;
+          }
+
+          .img {
+              width: 100%;
+              height: 100%;
+              background-image: url(https://image01.oneplus.net/media/202407/01/c10284f22fcce8ee1a30afae8dc7c973.png);
+              background-position: center;
+              background-repeat: no-repeat;
+              background-size: cover;
+
+              .text {
+                  width: 50%;
+                  height: 100%;
+                  position: relative;
+                  padding: 20px;
+
+                  h1 {
+                      margin-top: 20px;
+                  }
+
+                  p {
+                      margin-top: 20px;
+                  }
+
+                  input {
+                      margin-top: 120px;
+                      margin-left: 20px;
+                      text-align: center;
+                      height: 50px;
+                      width: 240px;
+                      border: 0.5px solid white;
+                  }
+              }
+          }
+      }
+  }
+
+  .sec3 {
+      width: 100%;
+      height: 40%;
+      display: flex;
+      justify-content: space-between;
+      padding: 60px;
+
+      .child4 {
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+
+          h3 {
+              font-size: 16px;
+              font-weight: 500;
+          }
+
+          p {
+              color: gray;
+              font-size: 14px;
+          }
+      }
+  }
+
+  .sec4 {
+      display: flex;
+      justify-content: space-between;
+      padding-left: 60px;
+      padding-right: 60px;
+      font-size: 14px;
+      color: grey;
+
+      .p1 {
+          display: flex;
+          gap: 15px;
+      }
+
+      .p2 {
+          display: flex;
+          gap: 15px;
+      }
+  }
+  .child4 p:hover{
+      color: white;
+  }
+
+  hr {
+      margin-top: 10px;
+       margin-inline: 60px;
+       margin-top: 30px;
+      border: 1px solid grey;
+      
+  }
+  .foot{
+      display: flex;
+      justify-content: space-between;
+      padding-left: 60px;
+      padding-right: 60px;
+      font-size: 14px;
+      color: grey;
+      .p1{
+          display: flex;
+          gap: 15px;
+      }
+      .p2 {
+          display: flex;
+          gap: 15px;
+      }
+  }
+}
 
 
 
